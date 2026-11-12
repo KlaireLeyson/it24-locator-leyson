@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Locate city</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Find my city</h1>
+
+    <form id="searchForm">
+<label for="cityInput">City name</label>
+<input id="cityInput" type="search"
+
+placeholder="Input city name" required>
+<button type="submit">Search</button>
+</form>
+<p id="status" role="status"></p>
+<div id="map"></div> 
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
